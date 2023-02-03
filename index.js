@@ -1,10 +1,14 @@
 const mainContainer = document.getElementById("mainContainer");
 mainContainer.setAttribute("id", "mainContainer");
-mainContainer.classList.add("card", "w-50", "mx-auto", "dark", "mt-3");
+mainContainer.classList.add("card", "w-50", "mx-auto", "dark", "mt-1");
 const mainTitle = document.createElement("h2");
 mainContainer.appendChild(mainTitle);
 mainTitle.classList.add("text-center", "mb-2");
 mainTitle.innerHTML = "@rtful Batina Creative Studios";
+let slogan = document.createElement("p");
+mainContainer.appendChild(slogan);
+slogan.classList.add("text-center", "fs-5");
+slogan.textContent = "Communication is the key";
 const title = document.createElement("h3");
 
 let compteur = document.getElementById("compteur");
