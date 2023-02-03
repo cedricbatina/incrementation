@@ -68,6 +68,7 @@ eraseButton.addEventListener("click", function eraseDatas() {
 });
 let paragraph = document.createElement("p");
 mainContainer.appendChild(paragraph);
+paragraph.setAttribute("id", "paragraph");
 paragraph.textContent =
   "Little Incrementation Web Application - @rtful Batina Creative Studios";
 paragraph.classList.add("fs-6", "fw-light", "text-center");
