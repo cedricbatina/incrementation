@@ -69,5 +69,5 @@ eraseButton.addEventListener("click", function eraseDatas() {
 let paragraph = document.createElement("p");
 mainContainer.appendChild(paragraph);
 paragraph.textContent =
-  "Little Incremention Web Application - @rtful Batina Creative Studios";
+  "Little Incrementation Web Application - @rtful Batina Creative Studios";
 paragraph.classList.add("fs-6", "fw-light", "text-center");
