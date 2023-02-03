@@ -1,6 +1,6 @@
 const mainContainer = document.getElementById("mainContainer");
 mainContainer.setAttribute("id", "mainContainer");
-mainContainer.classList.add("card", "w-50", "mx-auto", "dark", "mt-1");
+mainContainer.classList.add("card", "w-100", "mx-auto", "mt-1");
 const mainTitle = document.createElement("h2");
 mainContainer.appendChild(mainTitle);
 mainTitle.classList.add("text-center", "mb-2");
@@ -68,7 +68,7 @@ eraseButton.addEventListener("click", function eraseDatas() {
 });
 let paragraph = document.createElement("p");
 mainContainer.appendChild(paragraph);
-paragraph.setAttribute("id", "paragraph");
+//paragraph.setAttribute("id", "paragraph");
 paragraph.textContent =
   "Little Incrementation Web Application - @rtful Batina Creative Studios";
 paragraph.classList.add("fs-6", "fw-light", "text-center");

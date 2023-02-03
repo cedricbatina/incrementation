@@ -1,0 +1,2 @@
+This little app I done 2 years ago in order to renew and improve my coding skills on JavaScript.I revisited variables, strings, numbers, console.log(), functions and manipulated the DOM via the script with getElementById(), innerText and textContent.
+By pressing the INCREMENT button, incrementation starts. Press SAVE button to save the incremented number. Hit ERASE to erase stored datas  Many more lil'app will be posted on here. 
